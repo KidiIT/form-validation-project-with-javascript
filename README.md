@@ -1,4 +1,4 @@
-# FORM VALIDATION WITH JAVASCRIPT
+# form validation with javascript
  this project is a good one to get your head's straight on how to validate a form with javascript on your own term and to 
  be more effective with it. without looking at your console when writing your program 100%
  sincerely speaking this project comes with a free template to use on html,css, and javascript if you want be very good on your form validation skill with javascript.also, it'll be more efficient and effective for anyone out there looking forward to learn how to validate a form.
