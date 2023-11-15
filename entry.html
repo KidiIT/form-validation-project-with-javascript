@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entryform-Document</title>
+    <style>
+        .err{
+            color: rgb(255, 0, 0);
+
+        }
+         input{
+            padding: 10px 40px ;
+            margin: 20px 0;
+            border-radius: 20px;
+            background-color: whitesmoke;
+        }
+        button{
+            padding: 20px 50px;
+            margin: 20px 0;
+            border-radius: 20px;
+            border: none;
+            color: black;
+            box-shadow: 1px 2px 2px;
+
+        }
+        form{
+            padding: 50px;
+            margin: 20px 10px;
+            align-items: center;
+        }
+        body{  
+      background-color: rgb(26, 26, 26);
+      color: white;
+      font-size: 19px;
+      font-family: sans-serif;
+        }
+        .main_container{
+      background-color: rgb(48, 48, 48);
+      padding: 50px;
+      border-radius: 60px 60px;
+      align-items: center;
+        }
+        .main_container{ 
+      box-shadow: 2px 2px 4px 2px rgb(134, 134, 134);
+        }
+        .all{
+            padding: 10px 40px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form id="def">
+        <center>
+            <div style="border: 1px solid black; height:520; width: 75%;" class="main_container">
+                <h1><strong>CYBER-SECURITY ENTRY-LEVEL JOBS APPLICATION FORM.</strong></h1>
+            <p>
+                <label for="username">username</label>
+                <input type="text" id="username" name="username">
+                <span class="err" data-err="usernameErr" ></span>
+            </p>
+            <p>
+                <label for="password">password</label>
+                <input type="text" id="password" name="password">
+                <span class="err" data-err="passwordErr"></span>
+            </p>
+            <p>
+                <label for="aspiring">aspiring position </label>
+                <select class="all" name="aspiring" data-err="aspiringErr">
+                    <option>select...</option>
+                    <option>front desk</option>
+                    <option>penetration tester</option>
+                    <option>ethical hacker</option>
+                    <option>information security</option>
+                    <option>IT auditor</option>
+                    <option>security engineer</option>
+                    <option>security architect</option>
+                </select>
+            </p>
+            <p>
+                <label for="contact">contact information</label>
+                <input type="text" id="contact" name="contact">
+                <span class="err" data-err="contactErr"></span>
+            </p>
+            <button>submit</button>
+        </center>
+    </form>
+  <script src="entry.js"></script>
+</body>
+</html>
