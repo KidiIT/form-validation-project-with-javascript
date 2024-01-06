@@ -31,7 +31,7 @@ entryForm.onsubmit=(e)=>{
         formErr.contactErr = 'this field is requried';
 
     }else{
-       alert("Congratulation you've successfully submitted your application,Thanks for time your "+username);
+       alert("Congratulation you've successfully submitted your application,Thanks for time your ");
 
     }
     let errElement = document.querySelectorAll('.err')
